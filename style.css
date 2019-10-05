@@ -1,0 +1,103 @@
+body{
+  background-color:#eeeeee;  
+}
+
+#root{
+  background-image: url(https://static.toiimg.com/photo/47415822/.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  overflow: hidden;
+}
+
+#root > div > div > span{
+  font-weight: bold;
+}
+
+#root > div:nth-child(1) > div > div > div{
+    background-color: #db5c41;
+}
+
+#maine{
+  height: 460px;
+}
+ 
+#maine > div > span{
+  font-size: 1rem;
+  color: #5a5151;
+   top: 38%;
+   left: 12%;
+ }
+
+ #maine > div > div > span:nth-child(1){
+  font-size: 6rem;
+  color: #928a8a;
+  top: 43%;
+  left: 11%;
+}
+#maine > div > div > span:nth-child(2){
+  font-size: 6rem;
+  color: #928a8a;
+  top: 43%;
+  left: 31%;
+}
+
+#maine > div > a > span{
+  color: #5a5151;
+  font-size: 1rem;
+  top: 68%;
+  left: 12%;
+}
+#maine > div > a > img{ 
+  top: 66%;
+  left:17%;
+}
+
+#footer > div.col-12{
+  height: 100px;
+}
+
+#footer > div > div.col-4.d-flex.flex-column > div{
+  background-color: #ffffff;
+}
+
+
+#footer > div.col-12.d-flex.flex-row > div.col-4 > div > a > img{
+  bottom: 5%;
+  left: 80%;
+}
+
+
+#footer > div:nth-child(2) > div > img.rounded{
+  top: 65%;
+  right: 33%;
+}
+#footer > div:nth-child(2) > div > img.rounded-circle{
+  top: 85%;
+  right: 34%;
+}
+
+#footer > div:nth-child(2) > div:nth-child(2) > img.rounded{
+  top: 65%;
+  right:23%;
+
+}
+#footer > div:nth-child(2) > div:nth-child(2) > img.rounded-circle{
+  top: 85%;
+  right: 24%;
+}
+#footer > div:nth-child(2) > div:nth-child(3) > img.rounded.position-absolute{
+  top: 65%;
+  right:13%;
+}
+#footer > div:nth-child(2) > div:nth-child(3) > img.rounded-circle.position-absolute{
+  top: 85%;
+  right: 14%;
+ 
+}
+#footer > div.col-12.d-flex.flex-row.bg-warning > div.col-8 > span{
+  font-size: 1.2rem;
+}
+#footer > div.col-12.d-flex.flex-row.bg-warning > div.col-4 > div > span{
+  font-size: 1.2rem;
+}
